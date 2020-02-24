@@ -1,0 +1,42 @@
+.btn-primary {
+    color: #fff;
+    background-color: #840362;
+    border-color: #840362;
+}
+
+.btn-primary:hover {
+    background-color: #ed8bb1;
+    border-color: #ed8bb1;
+}
+
+.btn-primary:active {
+    background-color: #ed8bb1!important;
+    border-color: #ed8bb1!important;
+    box-shadow: 0 0 0 0.2rem #840362!important;
+}
+
+.btn-primary:focus {
+    background-color: #ed8bb1;
+    border-color: #ed8bb1;
+    box-shadow: 0 0 0 0.2rem #840362;
+}
+
+a:hover{
+    color: #FFF!important;
+}
+
+a{
+    color: #ed8bb1!important;
+}
+
+.carousel-indicators li {
+    background-color: #000;
+}
+
+.form-control:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #840362;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #84036279;
+}

@@ -1,0 +1,89 @@
+<nav id = "menu" class="navbar navbar-expand-lg navbar-light bg-light fixed-top color-scroll" style="background-color: #210b2c!important;">
+    <img src="../../assets/img/logo.png" style="width: 80px; height: 80px; padding: 0px 10px 0px 10px;">
+    <button style = "background-color: #840362;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul style = "margin-left: auto; margin-right: auto;"class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Code</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Tutorial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quick Look</a>
+            </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <button type="button" style = "margin: 0px 20px 0px 20px" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Log In</button>
+        <button type="button" class="btn btn-primary" style = "margin:0px 20px 0px 20px;" data-toggle="modal" data-target="#exampleModal2">Sign up</button>
+      </form>
+    </div>
+  </nav>
+
+<!-- Modal 1-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Log Into ECms</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">User</label>
+                <input type="text" class="form-control" aria-describedby="userHelp">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" >
+            </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Log In</button>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 2-->
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Sign Into ECms</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Firts Name</label>
+                <input type="text" class="form-control"  aria-describedby="userHelp">
+                <label for="exampleInputEmail1">Last Name</label>
+                <input type="text" class="form-control"  aria-describedby="userHelp">
+                <label for="exampleInputEmail1">User</label>
+                <input type="text" class="form-control"  aria-describedby="userHelp">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="text" class="form-control"  aria-describedby="userHelp">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control">
+                <label for="exampleInputPassword1">Confirm Password</label>
+                <input type="password" class="form-control">
+            </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Sign Up</button>
+        </div>
+        </div>
+    </div>
+</div>

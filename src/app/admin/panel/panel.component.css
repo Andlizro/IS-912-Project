@@ -1,0 +1,18 @@
+.panel-bar{
+    height:35px; 
+    background-color: #ed8bb1;
+    color: white; 
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.panel-item{
+    height: 30px;
+    background-color: transparent;
+    color: white;
+}
+hr{
+    background-color: white;
+    height: 0.5px;
+    width: 100%;
+}
