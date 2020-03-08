@@ -1,3 +1,5 @@
+import { CarouselComponent } from './landing/carousel/carousel.component';
+import { InformationComponent } from './landing/information/information.component';
 import { LandingComponent } from './landing/landing.component';
 import { PanelComponent } from './admin/panel/panel.component';
 import { LoginComponent } from './admin/login/login.component';
@@ -17,7 +19,11 @@ const routes: Routes = [
   },
   {
     path: '',
-    component: LandingComponent
+    component: LandingComponent,
+    children:[
+      {path: '', component: InformationComponent},
+      {path: 'examples', component: CarouselComponent}
+    ]
   }
 ];
 

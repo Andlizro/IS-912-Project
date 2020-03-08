@@ -4,13 +4,12 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
-import { InformationComponent } from './information/information.component';
-import { CarouselComponent } from './carousel/carousel.component';
+import { InformationComponent } from './landing/information/information.component';
+import { CarouselComponent } from './landing/carousel/carousel.component';
 import { AdminComponent } from './admin/admin.component';
 import { LoginComponent } from './admin/login/login.component';
 import { PanelComponent } from './admin/panel/panel.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './landing/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -21,8 +20,7 @@ import { FooterComponent } from './footer/footer.component';
     AdminComponent,
     LoginComponent,
     PanelComponent,
-    NavbarComponent,
-    FooterComponent
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

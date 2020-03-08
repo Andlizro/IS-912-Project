@@ -40,3 +40,9 @@ a{
     outline: 0;
     box-shadow: 0 0 0 0.2rem #84036279;
 }
+
+.bg{
+    padding: 20px;
+    background: linear-gradient(#210b2c, #840362);
+    height: 100vh;
+}

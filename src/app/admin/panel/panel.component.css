@@ -16,3 +16,7 @@ hr{
     height: 0.5px;
     width: 100%;
 }
+
+.option-menu{
+    margin: 0 20px 0 20px!important;
+}
